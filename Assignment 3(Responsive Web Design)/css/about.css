@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 4rem;
+    margin: 2rem;
+    justify-content: space-between;
+}
+
+
+
+a:hover{
+    color: orange;    
+}
+
+a:active{
+    text-decoration: underline;
+}
+
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 30%;
+    min-height: 30%; 
+}
+
+h2{
+    margin: 3vw;
+}
+
+p{
+    margin: 2vw;
+}
+
+h2:hover{
+    color: orange;
+}
